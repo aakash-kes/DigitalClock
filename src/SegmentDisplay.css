@@ -1,0 +1,65 @@
+.digit {
+    position: relative;
+    width: 1em;
+    height: 2em;
+    margin: 0 0.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .segment {
+    position: absolute;
+    background-color: #0f0;
+    border-radius: 0.1em;
+  }
+  
+  .segment.off {
+    background-color: #222;
+  }
+  
+  .segment.a, .segment.d, .segment.g {
+    width: 0.8em;
+    height: 0.2em;
+  }
+  
+  .segment.b, .segment.c, .segment.e, .segment.f {
+    width: 0.2em;
+    height: 0.8em;
+  }
+  
+  .segment.a {
+    top: 0;
+    left: 0.1em;
+  }
+  
+  .segment.b {
+    top: 0.1em;
+    right: 0;
+  }
+  
+  .segment.c {
+    bottom: 0.1em;
+    right: 0;
+  }
+  
+  .segment.d {
+    bottom: 0;
+    left: 0.1em;
+  }
+  
+  .segment.e {
+    bottom: 0.1em;
+    left: 0;
+  }
+  
+  .segment.f {
+    top: 0.1em;
+    left: 0;
+  }
+  
+  .segment.g {
+    top: 0.9em;
+    left: 0.1em;
+  }
+  

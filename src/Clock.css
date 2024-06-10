@@ -1,0 +1,11 @@
+.clock {
+  display: flex;
+  font-size: 4rem;
+  color: #0f0;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  margin: 0 0.2em;
+}
