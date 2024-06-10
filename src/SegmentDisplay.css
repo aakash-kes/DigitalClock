@@ -10,7 +10,7 @@
   
   .segment {
     position: absolute;
-    background-color: #0f0;
+    background-color:red;
     border-radius: 0.1em;
   }
   

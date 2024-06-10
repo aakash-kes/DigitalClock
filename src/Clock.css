@@ -1,7 +1,7 @@
 .clock {
   display: flex;
   font-size: 4rem;
-  color: #0f0;
+  color: red;
 }
 
 .separator {
